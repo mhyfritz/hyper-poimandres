@@ -1,0 +1,3 @@
+[submodule "poimandres-theme"]
+	path = poimandres-theme
+	url = https://github.com/drcmda/poimandres-theme.git

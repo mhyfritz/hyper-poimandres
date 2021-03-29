@@ -1,0 +1,19 @@
+{
+  "name": "hyper-poimandres-root",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:default && npm run build:storm && npm run build:light",
+    "build:default": "node bin/generate poimandres-theme/themes/poimandres-color-theme.json > packages/poimandres/index.js",
+    "build:storm": "node bin/generate poimandres-theme/themes/poimandres-color-theme-storm.json > packages/poimandres-storm/index.js",
+    "build:light": "node bin/generate poimandres-theme/themes/poimandres-color-theme-white.json > packages/poimandres-light/index.js"
+  },
+  "keywords": [],
+  "author": "Markus Hsi-Yang Fritz <markus.h.y.fritz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^7.1.0",
+    "json5": "^2.2.0",
+    "nunjucks": "^3.2.3",
+    "prettier": "^2.2.1"
+  }
+}
