@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" src="poimandres-theme/assets/dots.png" />
+  <img width="200" src="dots.png" />
   <h1>Poimandres</h1>
 </div>
 
